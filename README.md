@@ -3,6 +3,7 @@ Setup K8-Cluster using kubeadm
 [K8 Version-->1.28.1]
 
 1. Update System Packages [On Master & Worker Node]
+   
 sudo apt-get update
 
 3. Install Docker[On Master & Worker Node]
