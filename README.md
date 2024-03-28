@@ -4,11 +4,12 @@ Setup K8-Cluster using kubeadm
 
 1. Update System Packages [On Master & Worker Node]
    
-sudo apt-get update
+   sudo apt-get update
 
-3. Install Docker[On Master & Worker Node]
-sudo apt install docker.io -y
-sudo chmod 666 /var/run/docker.sock
+2. Install Docker[On Master & Worker Node]
+   
+   sudo apt install docker.io -y
+   sudo chmod 666 /var/run/docker.sock
 
 5. Install Required Dependencies for Kubernetes[On Master & Worker
 Node]
